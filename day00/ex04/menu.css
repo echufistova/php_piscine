@@ -1,0 +1,71 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    menu.css                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: ychufist <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2019/01/14 20:34:23 by ychufist          #+#    #+#              #
+#    Updated: 2019/01/14 20:34:27 by ychufist         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+body {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 45px;
+}
+ul {
+    display: block;
+
+    padding: 0;
+    list-style: none;
+}
+ul:after {
+    display: block;
+    content: ' ';
+    clear: both;
+    float: none;
+}
+ul.food > li {
+    float: left;
+    position: relative;
+    border: 0.5px solid black;
+    border-collapse: separate;
+}
+ul.food > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: darksalmon;
+    text-decoration: none;
+}
+ul.food > li > a:hover {
+    background-color: indianred;
+}
+ul.ingredients {
+    text-align: center;
+    display: none;
+    position: absolute;
+    width: 300px;
+    background-color: white;
+    border: 0.5px solid black;
+}
+ul.ingredients > li {
+    display: block;
+    border: 0.5px solid black;
+    border-collapse: separate;
+}
+ul.ingredients > li > a {
+    display: block;
+    padding: 10px;
+    color: white;
+    background-color: indianred;
+    text-decoration: none;
+}
+ul.ingredients > li > a:hover {
+    text-decoration: underline;
+}
+
+ul.food > li:hover > ul.ingredients {
+    display: block;
+}
