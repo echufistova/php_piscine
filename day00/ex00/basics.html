@@ -24,39 +24,36 @@
         {
             text-align: center;
             color: white;
-            font-size: 250%;
+            font-size: 40px;
         }
         p
         {
             text-align: right;
             font-family: "Courier New", Courier, monospace;
-
         }
-        .img1 img
+        .img_container
         {
-            padding-left: 50px;
-            padding-right: 50px;
-            margin-right: 20px;
-        }
-        .img2
-        {
-            padding-left: 50px;
-            padding-right: 50px;
-            width: 400px;
-            height: 450px;
+            margin-left: 50px;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1 >&theta;nline sh&theta;ps</h1>
-    <div class="img1">
-        <img src="/Users/ychufist/Desktop/pandora2.JPG" width=400 height=400>
-        <img src="/Users/ychufist/Desktop/moyo.JPG" width=400 height=400>
-        <br>
-        <a href="https://us.pandora.net" style="padding-left: 170px">https://us.pandora.net</a>
-        <a href="https://www.moyo.ua" style="padding-left: 420px">https://www.moyo.ua</a>
+<h1 >&theta;nline sh&theta;ps</h1>
+<div style="display: flex">
+    <div class="img_container">
+        <img src="https://cdn.shopify.com/s/files/1/1622/4757/products/PANDORA_CHARM_BRACELET_1_1024x1024.jpg?v=1526605433" width=400 height=400>
+        <a href="https://us.pandora.net">https://us.pandora.net</a>
     </div>
-    <hr size=3px>
-    <p><i>&copy;ychufist 2018</i></p>
- </body>
- </html>
+    <div class="img_container">
+        <img src="http://riviera.com.ua/wp-content/uploads/2018/01/mojo.jpg" width=400 height=400>
+        <a href="https://www.moyo.ua">https://www.moyo.ua</a>
+    </div>
+</div>
+<hr size=3px>
+<p><i>&copy;ychufist 2018</i></p>
+</body>
+</html>
