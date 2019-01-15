@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    doft.css                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: mrudyk <marvin@42.fr>                      +#+  +:+       +#+         #
+#    By: ychufist <marvin@42.fr>                    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2018/04/02 18:32:56 by mrudyk            #+#    #+#              #
-#    Updated: 2018/04/02 18:32:58 by mrudyk           ###   ########.fr        #
+#    Created: 2019/01/15 12:02:36 by ychufist          #+#    #+#              #
+#    Updated: 2019/01/15 12:02:38 by ychufist         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,13 +15,11 @@
   margin:auto;
   background-color: #909090 !important; 
 }
-
 p {
   font-size: 0.8vw;
   margin:0;
   font-family: Verdana;
 }
-
 #main {
 	display:block;
   	width:60%;
